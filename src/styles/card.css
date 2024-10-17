@@ -1,0 +1,101 @@
+/* Estilos para la tarjeta */
+  .tarjetas-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 16px;
+  }
+
+  .tarjeta {
+    display: grid;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    gap: 20px;    
+  }
+  
+  .tarjeta-imagen {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+    margin: 0 auto;    
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .tarjeta-contenido {
+    flex: 1;    
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .tarjeta-titulo {
+    margin: 0;
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+  
+  .tarjeta-descripcion {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    text-align: center; 
+  }
+  
+  .tarjeta-precio {
+    margin: 0;
+    font-weight: bold;
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .botones{
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .boton-agregar {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;    
+  }
+  
+  .boton-agregar:hover {
+    background-color: #45a049;
+  }
+  .boton-quitar {
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .boton-quitar:hover {
+    background-color: #a04545;
+  }
+  
+  /* Estilos para el carrito */
+  .carrito {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
